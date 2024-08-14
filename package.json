@@ -1,0 +1,17 @@
+{
+  "name": "tiny-ws",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "license": "UNLICENSE",
+  "scripts": {
+    "start": "node --env-file=.env main.js"
+  },
+  "dependencies": {
+    "@discordjs/ws": "^1.1.1"
+  },
+  "packageManager": "yarn@4.4.0",
+  "volta": {
+    "node": "22.5.1"
+  }
+}
