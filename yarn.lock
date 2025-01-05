@@ -5,7 +5,7 @@ __metadata:
   version: 8
   cacheKey: 10
 
-"@discordjs/collection@npm:^2.1.0, @discordjs/collection@npm:^2.1.1":
+"@discordjs/collection@npm:^2.1.1":
   version: 2.1.1
   resolution: "@discordjs/collection@npm:2.1.1"
   checksum: 10/2bf815120929e20bdcc94a7d0a9c0e567ef859b8cc502f5ecddaeae31ba3457711df708ab200ac6e86ffccab31f796192860f8ad609a9ddc2cdd7ffe5825a266
@@ -29,31 +29,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@discordjs/util@npm:^1.1.0, @discordjs/util@npm:^1.1.1":
+"@discordjs/util@npm:^1.1.1":
   version: 1.1.1
   resolution: "@discordjs/util@npm:1.1.1"
   checksum: 10/3c8ae0c47fcf124e13bfef6232cf4564c35da9ac6b95b63888458c6662742e387324cdafa6207d625415553a5d05fc854f106c726a00c8e81c3414fd5e7eaf2c
   languageName: node
   linkType: hard
 
-"@discordjs/ws@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@discordjs/ws@npm:1.2.0"
+"@discordjs/ws@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@discordjs/ws@npm:2.0.1"
   dependencies:
-    "@discordjs/collection": "npm:^2.1.0"
+    "@discordjs/collection": "npm:^2.1.1"
     "@discordjs/rest": "npm:^2.4.1"
-    "@discordjs/util": "npm:^1.1.0"
-    "@sapphire/async-queue": "npm:^1.5.2"
-    "@types/ws": "npm:^8.5.10"
-    "@vladfrangu/async_event_emitter": "npm:^2.2.4"
+    "@discordjs/util": "npm:^1.1.1"
+    "@sapphire/async-queue": "npm:^1.5.3"
+    "@types/ws": "npm:^8.5.12"
+    "@vladfrangu/async_event_emitter": "npm:^2.4.6"
     discord-api-types: "npm:^0.37.114"
-    tslib: "npm:^2.6.2"
-    ws: "npm:^8.17.0"
-  checksum: 10/7a4cdd5ebede88b98f5d7c00551af607c863c8768a8ef8c96c657448476950533fc2231683f431980db363f19127849c72bd0fbec2f2e88b4c47f2552f5adc9d
+    tslib: "npm:^2.6.3"
+    ws: "npm:^8.18.0"
+  checksum: 10/b80d13dd9537a27c8ffad8d54efbf95cc3311e625ba8ff60d95fa9249061dfeb4608bf85f2ee4908af0384f6532d1c2d8b615e24025985fceb8f378d59720003
   languageName: node
   linkType: hard
 
-"@sapphire/async-queue@npm:^1.5.2, @sapphire/async-queue@npm:^1.5.3":
+"@sapphire/async-queue@npm:^1.5.3":
   version: 1.5.5
   resolution: "@sapphire/async-queue@npm:1.5.5"
   checksum: 10/26e6136de6dde4053e69afe7103fc8d71e9b780100a2b00de7d74eb009263cb6b1d06cf92b75a699c4c05804b7c7bc72190814c3709a60cde291ce29be0e0c36
@@ -76,16 +76,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ws@npm:^8.5.10":
-  version: 8.5.12
-  resolution: "@types/ws@npm:8.5.12"
+"@types/ws@npm:^8.5.12":
+  version: 8.5.13
+  resolution: "@types/ws@npm:8.5.13"
   dependencies:
     "@types/node": "npm:*"
-  checksum: 10/d8a3ddfb5ff8fea992a043113579d61ac1ea21e8464415af9e2b01b205ed19d817821ad64ca1b3a90062d1df1c23b0f586d8351d25ca6728844df99a74e8f76d
+  checksum: 10/21369beafa75c91ae3b00d3a2671c7408fceae1d492ca2abd5ac7c8c8bf4596d513c1599ebbddeae82c27c4a2d248976d0d714c4b3d34362b2ae35b964e2e637
   languageName: node
   linkType: hard
 
-"@vladfrangu/async_event_emitter@npm:^2.2.4, @vladfrangu/async_event_emitter@npm:^2.4.6":
+"@vladfrangu/async_event_emitter@npm:^2.4.6":
   version: 2.4.6
   resolution: "@vladfrangu/async_event_emitter@npm:2.4.6"
   checksum: 10/6a329441bbd36bb8bdc8c49f18328abf724834597c8cab56b5741f18fa167a010bb841bc9ec3638b6b73c6692b85d0de724612b0a416b523650574576fd1a197
@@ -110,11 +110,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tiny-ws@workspace:."
   dependencies:
-    "@discordjs/ws": "npm:^1.2.0"
+    "@discordjs/ws": "npm:^2.0.1"
   languageName: unknown
   linkType: soft
 
-"tslib@npm:^2.6.2, tslib@npm:^2.6.3":
+"tslib@npm:^2.6.3":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10/3e2e043d5c2316461cb54e5c7fe02c30ef6dccb3384717ca22ae5c6b5bc95232a6241df19c622d9c73b809bea33b187f6dbc73030963e29950c2141bc32a79f7
@@ -135,7 +135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^8.17.0":
+"ws@npm:^8.18.0":
   version: 8.18.0
   resolution: "ws@npm:8.18.0"
   peerDependencies:
