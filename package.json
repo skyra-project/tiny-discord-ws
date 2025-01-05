@@ -8,9 +8,9 @@
     "start": "node --env-file=.env main.js"
   },
   "dependencies": {
-    "@discordjs/ws": "^1.1.1"
+    "@discordjs/ws": "^1.2.0"
   },
-  "packageManager": "yarn@4.5.3",
+  "packageManager": "yarn@4.6.0",
   "volta": {
     "node": "22.12.0"
   }
