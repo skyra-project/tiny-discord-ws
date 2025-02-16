@@ -8,10 +8,10 @@
     "start": "node --env-file=.env main.js"
   },
   "dependencies": {
-    "@discordjs/ws": "^1.2.0"
+    "@discordjs/ws": "^1.2.1"
   },
   "packageManager": "yarn@4.6.0",
   "volta": {
-    "node": "22.13.1"
+    "node": "22.14.0"
   }
 }
